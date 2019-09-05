@@ -7,15 +7,33 @@
     <link rel="stylesheet" href="../lib/bootstrap_sans_internet.css">
     <link rel="stylesheet" href="style.css">
 
+    <link href="https://fonts.googleapis.com/css?family=Chilanka&display=swap" rel="stylesheet">
+
 
   </head>
-  <body>
+  <body id="body">
 
+<img src="../img/logoStanTransp.png" alt="Logo de Stanislas" title="Collège Stanislas">
 
+<p class="intro">Bienvenue sur l'outil en ligne de pointage du Collège Stansilas</p>
 
+<script type="text/javascript">
+<!-- Begin
 
-<script src="../lib/jquery.js">
+var password;
+var pass1 = "surveillant"; // mettre votre mot de passe
 
+password=prompt("Mettez votre mot de passe:","");
+
+if (password==pass1) {
+window.location= "index1.html"; // page si le mot de passe est valide (page protegee)
+} else {
+window.location= "incorrectpwd.html"; // page si le mot de passe est invalide
+}
+// End -->
 </script>
+
+
+<script src="../lib/jquery.js"></script>
   </body>
 </html>
